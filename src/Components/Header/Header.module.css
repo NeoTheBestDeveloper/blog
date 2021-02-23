@@ -1,0 +1,23 @@
+.Header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(192, 192, 192);
+}
+
+.Headers_items {
+  height: 100%;
+  display: flex;
+  margin-left: 33%;
+  list-style-type: none;
+}
+
+.item {
+  margin-right: 10px;
+}
+
+.item a {
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}

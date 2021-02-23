@@ -1,0 +1,40 @@
+.Menu {
+  margin-left: 33%;
+  width: 33%;
+}
+
+.Menu_logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.Menu_bottom {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  height: 100%;
+  display: flex;
+}
+
+.Menu_items {
+  display: flex;
+  list-style-type: none;
+}
+
+.item {
+  margin-right: 10px;
+}
+
+.item a {
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.Menu_search {
+  margin-left: 35px;
+}
