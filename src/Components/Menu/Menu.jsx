@@ -11,7 +11,7 @@ const Menu = () => {
           </div>
         </div>
         <div className={s.Menu_bottom}>
-          <div className={s.Menu_adaptive}>Recipes & searh</div>
+          <div className={s.Menu_adaptive}>Recipes & LOL</div>
           <ul className={s.Menu_items}>
             <li className={s.item}>
               <a href=".">All recipes</a>
