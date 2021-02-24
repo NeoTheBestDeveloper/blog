@@ -48,7 +48,7 @@ const Recipe = () => {
         </p>
       </div>
       <div className={s.more}>
-        <a href="">Continue to the recipe »</a>
+        <a href=".s">Continue to the recipe »</a>
       </div>
     </div>
   );

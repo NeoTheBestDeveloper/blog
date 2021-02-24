@@ -1,7 +1,43 @@
 .Sidebar {
-  background-color: green;
   max-width: 325px;
   width: 30%;
-  height: 660px;
   margin-right: 30px;
+}
+
+.social_top-item {
+  font-size: 30px;
+}
+
+.photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.social_top {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Playfair Display', Palatino, serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  padding: 6px 0 7px 0;
+  font-size: 14px;
+  border-top: 2px solid #f7f7f7;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.social_top .item::after {
+  content: '⋄';
+}
+
+.social_top .item:last-child::after {
+  content: none;
+}
+
+.social_top .item a {
+  color: #000;
 }
