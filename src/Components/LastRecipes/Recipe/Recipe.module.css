@@ -1,0 +1,62 @@
+.Recipe {
+  margin-bottom: 70px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: 'Playfair Display', Palatino, serif;
+  border-bottom: 2px solid #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.date {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.coments {
+  display: inline-block;
+}
+
+.illustration {
+  margin-top: 26px;
+}
+
+.illustration img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.text p {
+  margin-bottom: 26px;
+  font-size: 17px;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.more a {
+  font-size: 22px;
+  font-family: 'Playfair Display', Palatino, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.75s ease;
+}
+
+.more a:hover {
+  color: rgb(77, 170, 170);
+  border-color: rgb(77, 170, 170);
+}
+
+.more a:active {
+  color: rgb(60, 117, 117);
+  border-color: rgb(60, 117, 117);
+}

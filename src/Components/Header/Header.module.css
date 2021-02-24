@@ -1,6 +1,5 @@
 .Header {
   width: 100%;
-  font-size: 12px;
   font-family: ' Trebuchet MS', Arial, sans-serif;
   font-weight: 400;
   display: flex;
@@ -52,8 +51,12 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   .Headers_items {
     width: 100%;
+  }
+
+  .item a {
+    font-size: 12px;
   }
 }
