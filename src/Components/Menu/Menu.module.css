@@ -6,6 +6,7 @@
 }
 
 .Menu {
+<<<<<<< HEAD
   margin-right: 30px;
   margin-left: 30px;
   margin-top: 50px;
@@ -15,6 +16,11 @@
   font-weight: 400;
   font-size: 17px;
   text-transform: uppercase;
+=======
+  margin-top: 50px;
+  margin-left: 33%;
+  width: 33%;
+>>>>>>> 69523b2160c0532048bee2c1df5e6ae1f3808b21
 }
 
 .Menu_logo img {
