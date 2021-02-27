@@ -48,6 +48,15 @@
   color: #000;
   text-decoration: none;
   margin-left: 4px;
+  transition: all 0.1s ease-in-out;
+}
+
+.social_top .item a:hover {
+  color: rgb(77, 170, 170);
+}
+
+.social_top .item a:active {
+  color: rgb(60, 117, 117);
 }
 
 .subscribe {
@@ -98,6 +107,16 @@
   padding: 8px 6px 5px;
   letter-spacing: 1px;
   background-color: #000;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-color: rgb(77, 170, 170);
+}
+
+.subscribe button:active {
+  background-color: rgb(60, 117, 117);
 }
 
 .popularRecipes {
@@ -129,6 +148,17 @@
 .popularRecipes_item_title a {
   color: #000;
   text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.popularRecipes_item_title a:hover {
+  color: rgb(77, 170, 170);
+  text-decoration: underline;
+}
+
+.popularRecipes_item_title a:active {
+  color: rgb(60, 117, 117);
+  text-decoration: underline;
 }
 
 .popularRecipes_title {
@@ -158,6 +188,15 @@
   font-family: 'Playfair Display', Palatino, serif;
   font-style: italic;
   line-height: 1.7;
+  transition: all 0.1s ease-in-out;
+}
+
+.popularRecipes_more a:hover {
+  color: rgb(77, 170, 170);
+}
+
+.popularRecipes_more a:active {
+  color: rgb(60, 117, 117);
 }
 
 @media screen and (max-width: 1020px) {

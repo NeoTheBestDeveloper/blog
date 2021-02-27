@@ -5,11 +5,17 @@ import il2 from './../../../img/fresh-beets.jpg';
 const Recipe = () => {
   return (
     <div className={s.Recipe}>
-      <h1 className={s.title}>Perfect Roasted Beets</h1>
+      <h1 className={s.title}>
+        <a href=".s">Perfect Roasted Beets</a>
+      </h1>
       <div className={s.date}>February 20, 2021 - </div>
-      <div className={s.coments}>25 Comments</div>
+      <div className={s.coments}>
+        <a href=".s">25 Comments</a>
+      </div>
       <div className={s.illustration}>
-        <img src={il1} alt="" />
+        <a href=".s">
+          <img src={il1} alt="" />
+        </a>
       </div>
       <div className={s.text}>
         <p>
@@ -27,7 +33,8 @@ const Recipe = () => {
         </p>
       </div>
       <div className={s.illustration}>
-        <img src={il2} alt="" />
+        <a href=".s">
+          <img src={il2} alt="" /></a>
       </div>
       <div className={s.text}>
         <p>

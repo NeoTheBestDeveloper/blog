@@ -1,0 +1,42 @@
+.Last_Recipes_next {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.Last_Recipes_next a:hover {
+  color: rgb(77, 170, 170);
+}
+
+.Last_Recipes_next a:active {
+  color: rgb(60, 117, 117);
+}
+
+.Last_Recipes_next a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  display: inline-block;
+}
+
+.Last_Recipes_next_top {
+  font-family: Function, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding-bottom: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.Last_Recipes_next_bottom {
+  text-decoration: underline;
+  font-family: 'Playfair Display', Palatino, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+}

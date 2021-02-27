@@ -39,7 +39,7 @@
   display: none;
   text-align: center;
   cursor: pointer;
-  transition: background-color 0.75s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .Menu_adaptive:hover {
@@ -75,6 +75,7 @@
   text-decoration: none;
   color: black;
   cursor: pointer;
+  transition: all 0.1s ease-in-out;
 }
 
 .item a:hover {

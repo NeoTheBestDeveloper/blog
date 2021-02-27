@@ -10,6 +10,20 @@
   margin-bottom: 10px;
 }
 
+.title a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.title a:hover {
+  color: rgb(77, 170, 170);
+}
+
+.title a:active {
+  color: rgb(60, 117, 117);
+}
+
 .date {
   display: inline-block;
   margin-right: 5px;
@@ -17,6 +31,19 @@
 
 .coments {
   display: inline-block;
+}
+
+.coments a {
+  color: #000;
+  transition: all 0.1s ease-in-out;
+}
+
+.coments a:hover {
+  color: rgb(77, 170, 170);
+}
+
+.coments a:active {
+  color: rgb(60, 117, 117);
 }
 
 .illustration {
@@ -48,7 +75,7 @@
   border-bottom: 1px solid #000;
   color: #000;
   cursor: pointer;
-  transition: all 0.75s ease;
+  transition: all 0.1s ease-in-out;
 }
 
 .more a:hover {

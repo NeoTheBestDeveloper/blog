@@ -2,7 +2,7 @@ import s from './Header.module.css';
 
 const Header = () => {
   return (
-    <div className={s.Header}>
+    <header className={s.Header}>
       <ul className={s.Headers_items}>
         <li className={s.item}>
           <a href=".">About</a>
@@ -20,7 +20,7 @@ const Header = () => {
           <a href=".">Saved</a>
         </li>
       </ul>
-    </div>
+    </header>
   );
 };
 
