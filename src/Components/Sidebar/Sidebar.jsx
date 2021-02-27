@@ -1,4 +1,6 @@
 import s from './Sidebar.module.css';
+import granola from './../../img/granola.jpg'
+import shells from './../../img/shells.jpg'
 import neo from './../../img/neo.jpg';
 
 const Sidebar = () => {
@@ -39,16 +41,48 @@ const Sidebar = () => {
         </div>
       </div> {/* AboutMe */}
 
+
       <div className={s.subscribe}>
-        <div className={s.title}>Don’t miss a new recipe</div>
-        <form className={s.subscribeForm} action="">
+        <div className={s.subscribe_title}>Don’t miss a new recipe</div>
+        <form className={s.subscribe_form} action="">
           <input type="text" placeholder="Email adress..." />
           <button type="submit">Subscribe</button>
         </form>
       </div> {/* Subscribe */}
 
-      <div className={s.popularRecipes}>
 
+      <div className={s.popularRecipes}>
+        <div className={s.popularRecipes_title}>Popular recipes</div>
+        <div className={s.popularRecipes_items}>
+
+          <div className={s.popularRecipes_item}>
+            <div className={s.popularRecipes_item_photo}>
+              <a href="s.">
+                <img src={granola} alt="" />
+              </a>
+            </div>
+            <div className={s.popularRecipes_item_title}>
+              <a href=".s">Easy No-Bake Granola Bars</a>
+            </div>
+          </div> {/* popularRecipes_item */}
+
+          <div className={s.popularRecipes_item}>
+            <div className={s.popularRecipes_item_photo}>
+              <a href="s.">
+                <img src={shells} alt="" />
+              </a>
+            </div>
+            <div className={s.popularRecipes_item_title}>
+              <a href=".s">Best Stuffed Shells</a>
+            </div>
+          </div> {/* popularRecipes_item */}
+
+        </div>
+
+
+        <div className={s.popularRecipes_more}>
+          <a href=".s">More favorites »</a>
+        </div>
       </div> {/* PopularRecipes */}
 
 
