@@ -5,8 +5,6 @@ const Last_Recipes = () => {
   return (
     <div className={s.Last_Recipes}>
       <Recipe />
-      <Recipe />
-      <Recipe />
     </div>
   );
 };

@@ -4,8 +4,19 @@
   margin-right: 30px;
 }
 
-.social_top-item {
-  font-size: 30px;
+/* .aboutMe {
+  width: 100%;
+} */
+
+.decribtions {
+  text-align: center;
+  font-family: Function, 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1.4;
+  width: 100%;
 }
 
 .photo img {
@@ -13,25 +24,24 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .social_top {
   margin-top: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   font-family: 'Playfair Display', Palatino, serif;
+  line-height: 1.4;
   font-weight: 700;
   font-style: normal;
   text-align: center;
   width: 100%;
-  padding: 6px 0 7px 0;
   font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-top: 2px solid #f7f7f7;
   border-bottom: 2px solid #f7f7f7;
-}
-
-.social_top .item::after {
-  content: '⋄';
 }
 
 .social_top .item:last-child::after {
@@ -40,4 +50,20 @@
 
 .social_top .item a {
   color: #000;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 1020px) {
+  .Sidebar {
+    max-width: 625px;
+    width: 100%;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .social_top .item a {
+    font-size: 13px;
+  }
 }

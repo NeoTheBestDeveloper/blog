@@ -13,7 +13,7 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1020px) {
   .main-wraper {
     flex-wrap: wrap;
   }

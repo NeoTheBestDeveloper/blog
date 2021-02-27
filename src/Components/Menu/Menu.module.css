@@ -89,7 +89,7 @@
   color: rgba(60, 117, 117, 0.384);
 } */
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1020px) {
   .Menu_items:first-child {
     margin-left: 0;
   }
@@ -103,6 +103,9 @@
   }
   .Menu_search input {
     width: 100%;
+  }
+  .Menu {
+    max-width: 625px;
   }
 }
 

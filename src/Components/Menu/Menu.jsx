@@ -7,7 +7,9 @@ const Menu = () => {
       <div className={s.Menu}>
         <div className={s.Menu_top}>
           <div className={s.Menu_logo}>
-            <img src={logo} alt="" />
+            <a href="/">
+              <img src={logo} alt="" />
+            </a>
           </div>
         </div>
         <div className={s.Menu_bottom}>

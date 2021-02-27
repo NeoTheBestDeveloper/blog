@@ -9,18 +9,18 @@ const Sidebar = () => {
           <img src={neo} alt="" />
         </div>
         <div className={s.decribtions}>
-          Hello! I cook fresh, vegetarian recipes. My dog, Cookie, catches the crumbs. About C+K »
+          Hello! I cook fresh, vegetarian recipes. My dog Cookie, catches the crumbs. About C+K »
         </div>
         <div className={s.social}>
           <div className={s.social_top}>
             <div className={s.item}>
-              <a href=".s">Contact</a>
+              <a href=".s">Contact ⋄</a>
             </div>
             <div className={s.item}>
-              <a href=".s">New Here</a>
+              <a href=".s">New Here? ⋄</a>
             </div>
             <div className={s.item}>
-              <a href=".s">Shop</a>
+              <a href=".s">Shop ⋄</a>
             </div>
             <div className={s.item}>
               <a href=".s">Subscribe</a>
