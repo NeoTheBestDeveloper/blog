@@ -1,7 +1,8 @@
 import s from './Sidebar.module.css';
-import granola from './../../img/granola.jpg'
-import shells from './../../img/shells.jpg'
+import granola from './../../img/granola.jpg';
+import shells from './../../img/shells.jpg';
 import neo from './../../img/neo.jpg';
+import PopularRecipe from './PopularRecipe/PopularRecipe';
 
 const Sidebar = () => {
   return (
@@ -54,32 +55,9 @@ const Sidebar = () => {
       <div className={s.popularRecipes}>
         <div className={s.popularRecipes_title}>Popular recipes</div>
         <div className={s.popularRecipes_items}>
-
-          <div className={s.popularRecipes_item}>
-            <div className={s.popularRecipes_item_photo}>
-              <a href="s.">
-                <img src={granola} alt="" />
-              </a>
-            </div>
-            <div className={s.popularRecipes_item_title}>
-              <a href=".s">Easy No-Bake Granola Bars</a>
-            </div>
-          </div> {/* popularRecipes_item */}
-
-          <div className={s.popularRecipes_item}>
-            <div className={s.popularRecipes_item_photo}>
-              <a href="s.">
-                <img src={shells} alt="" />
-              </a>
-            </div>
-            <div className={s.popularRecipes_item_title}>
-              <a href=".s">Best Stuffed Shells</a>
-            </div>
-          </div> {/* popularRecipes_item */}
-
+          <PopularRecipe photo={granola} title={"Easy No-Bake Granola Bars"} />
+          <PopularRecipe photo={shells} title={"Best Stuffed Shells"} />
         </div>
-
-
         <div className={s.popularRecipes_more}>
           <a href=".s">More favorites »</a>
         </div>
